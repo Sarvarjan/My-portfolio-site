@@ -29,7 +29,7 @@ body{
 }
 
 .header__wrapper{
-    margin: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,12 +43,12 @@ body{
 }
 
 .nav__item:hover{
-    color: rgb(15, 240, 45);
+    color: #8b09d6;
     
 }
 
 .nav__item.active{
-    color: red;
+    color: #8b09d6;
 }
 
 /* nav end */
@@ -74,7 +74,7 @@ body{
 .resume_button:hover{
     font-weight: 100px;
 
-    color: rgb(255, 255, 0);
+    color: #8b09d6;
     cursor: pointer;
     /* kursor ko'rinishi */
 }
@@ -138,7 +138,7 @@ text-transform: uppercase;
 }
 
 .intro{
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
