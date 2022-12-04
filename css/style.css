@@ -14,7 +14,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     /* border: 2px solid black; */
-    height: 50px;
+    height: auto;
 }
 
 /* header */
@@ -24,9 +24,7 @@ body{
 
 }
 
-.header{
-   
-}
+
 
 .header__wrapper{
     margin-top: 30px;
@@ -52,28 +50,29 @@ body{
 }
 
 /* nav end */
-.header__button{
+.header__button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 102px;
     height: 36px;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    box-shadow: 3px;
+    border: 2px solid #8b09d6;
+    border-radius: 50px;
+    
 }
 
-.resume_button{
+.resume_button:hover{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     color: #232E35;
+    border: 3px solid #8b09d6;
+    border-radius: 50px;
 }
 
-.resume_button:hover{
+.resume_button{
     font-weight: 100px;
-
     color: #8b09d6;
     cursor: pointer;
     /* kursor ko'rinishi */
@@ -149,3 +148,124 @@ text-transform: uppercase;
 /* intro */
 /* header end */
 
+/* about  start*/
+
+hr{margin-top: 50px;}
+.about{
+    height: 300px;
+    /* margin-top: 50px; */
+    background-color: #FBFBFB;
+}
+
+.about_title{
+    
+font-weight: 700px;
+font-size: 36px;
+line-height: 45px;
+background-color: white;
+color: #232E35;
+text-align: center;
+margin-bottom: 60px;
+}
+
+.about_line{ 
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.line1{
+    width: 90px;
+    height: 0.35px;
+    background-color: #232E35 ;
+    margin: 5px;
+}
+
+.line2{
+    width: 150px;
+    height: 0.35px;
+    background-color: #232E35 ; 
+}
+
+.about_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kimman{
+    width: 30%;
+    background-color: white;
+}
+
+.men_kimman{
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #232E35;   
+}
+
+.t_t{
+    width: 30%;
+    background-color: white;
+}
+
+.talim{
+font-weight: 700px;
+font-size: 30px;
+line-height: 45px;
+
+color: #232E35;
+}
+
+.spa{
+    color:  #8b09d6;
+    
+}
+
+.p_p{
+    color: #eb3d3d;
+}
+
+.p_p2{
+    color: #eb3d3d;
+}
+
+
+.xizmat{
+    height: 774px;
+}
+
+.servise_title{
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #232E35;     
+}
+
+.servise_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.kont1{
+    height: 294px; 
+    width: 361px;
+    background-color: aqua;
+    margin: 2px;
+}
+
+.kont1{
+    height: 294px; 
+    width: 361px;
+    background-color: aqua;
+}
+
+.kont1{
+    height: 294px; 
+    width: 361px;
+    background-color: aqua;
+}
+/* about end */
